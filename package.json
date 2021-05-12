@@ -1,23 +1,20 @@
 {
   "name": "testcafe-reporter-slack-personalize",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "slack-personalize TestCafe reporter plugin.",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PatrickVibild/testcafe-reporter-slack-personalize.git"
+  "repository": "https://github.com/patrickvibild/testcafe-reporter-slack-personalize",
+  "author": {
+    "name": "PatrickVibild",
+    "email": "pv@novemberfirst.com"
   },
-  "author": "Patrick Vibild <patrickvibild@gmail.com>",
   "main": "lib/index",
   "files": [
     "lib"
   ],
   "scripts": {
-    "build": "gulp build",
     "test": "gulp test",
     "publish-please": "publish-please",
-    "prepublish": "publish-please guard",
-    "prod": "gulp --production",
-    "dev": "gulp watch"
+    "prepublish": "publish-please guard"
   },
   "keywords": [
     "testcafe",
@@ -27,8 +24,8 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.3.4",
-    "@babel/plugin-transform-runtime": "^7.3.4",
     "@babel/preset-env": "^7.3.4",
+    "@babel/plugin-transform-runtime": "^7.3.4",
     "babel-eslint": "^10.0.1",
     "callsite-record": "^3.2.0",
     "del": "^1.2.0",
@@ -37,20 +34,11 @@
     "gulp-eslint": "^5.0.0",
     "gulp-mocha": "^6.0.0",
     "normalize-newline": "^1.0.2",
-    "publish-please": "^5.5.2",
+    "publish-please": "^5.4.3",
     "read-file-relative": "^1.2.0",
     "testcafe": "^1.0.1"
   },
   "dependencies": {
-    "@babel/runtime": "^7.3.4",
-    "dotenv": "^8.2.0",
-    "slack-node": "^0.1.8"
-  },
-  "bugs": {
-    "url": "https://github.com/PatrickVibild/testcafe-reporter-slack-personalize/issues"
-  },
-  "homepage": "https://github.com/PatrickVibild/testcafe-reporter-slack-personalize#readme",
-  "directories": {
-    "test": "test"
+    "@babel/runtime": "^7.3.4"
   }
 }
