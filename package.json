@@ -1,7 +1,7 @@
 {
   "name": "@patrickvibild/testcafe-reporter-slack-personalize",
   "version": "1.0.0",
-  "description": "slack-personalize TestCafe reporter plugin.",
+  "description": "slack-personalize TestCafe reporter plugin. ",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PatrickVibild/testcafe-reporter-slack-personalize.git"
