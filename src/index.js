@@ -43,6 +43,8 @@ module.exports = function() {
             this.testCount = testCount;
             this.userAgents = userAgents;
 
+            testingEnvironment = (process.env.ENV) ? process.env.ENV : '';
+
             const startTimeFormatted = this.moment(this.startTime).format('M/D/YYYY h:mm:ss a');
             const startingMessage = `---- ${emojis.rocket} ${'Starting TestCafe Test Run:'} ${bold(startTimeFormatted)} ----\n`;
             const startedMessage = `${emojis.rocket} ${'Started TestCafe:'} ${bold(startTimeFormatted)}\n`;
